@@ -60,7 +60,7 @@ const Header = () => {
                 <h1 className="text-[2.25rem] sm:text-[3rem] font-bold mt-[80px] h-max">{`Hi! I'm DeVon - `} <span className="txt-rotate" data-rotate='[ "Student Athlete", "Full Stack Developer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
             </div>
         </div>
-        <img src={astro} alt="" className="w-2/3 md:w-1/2 place-self-end mt-0 sm:mt-[-30px] md:mt-0"/>
+        <img src={astro} alt="" className="w-2/3 md:w-1/2 place-self-center mt-0 sm:mt-[-30px] md:mt-0"/>
     </div>
   )
 }

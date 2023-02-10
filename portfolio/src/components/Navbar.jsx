@@ -12,7 +12,7 @@ const Navbar = () => {
             <a href="#about">
                 <p className="text-[1.25rem]">About</p>
             </a>
-            <a href="/">
+            <a href="#skills">
                 <p className="text-[1.25rem]">Skills</p>
             </a>
             <a href="/">
