@@ -7,9 +7,9 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center text-white">
-        <h1 className="font-black text-[1.5rem] sm:text-[2.25rem]">DDUPREE2001</h1>
+        <a href="/"><h1 className="font-black text-[1.5rem] sm:text-[2.25rem]">DDUPREE2001</h1></a>
         <div className="hidden lg:flex justify-between items-center w-[528px]">
-            <a href="/">
+            <a href="#about">
                 <p className="text-[1.25rem]">About</p>
             </a>
             <a href="/">

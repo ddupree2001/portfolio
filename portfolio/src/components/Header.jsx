@@ -52,16 +52,13 @@ const Header = () => {
         <div className="w-full md:w-1/2">
             <div className="flex items-center gap-x-4">
                 <div className="bg-white w-[98px] h-[2px]"></div>
-                <AiOutlineInstagram size={27} />
-                <FaLinkedinIn size={27} />
-                <AiOutlineGithub size={27} />
+                <a href="https://www.instagram.com/devon_dupree01/" target="_blank"><AiOutlineInstagram size={27} /></a>
+                <a href="https://www.linkedin.com/in/devon-dupree-973471168/" target="_blank"><FaLinkedinIn size={27} /></a>
+                <a href="https://github.com/ddupree2001" target="_blank"><AiOutlineGithub size={27} /></a>
             </div>
             <div className="h-[10rem]">
                 <h1 className="text-[2.25rem] sm:text-[3rem] font-bold mt-[80px] h-max">{`Hi! I'm DeVon - `} <span className="txt-rotate" data-rotate='[ "Student Athlete", "Full Stack Developer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
             </div>
-            {/* <button className="bg-transparent border-2 px-[15px] py-[10px] rounded-[10px] text-[1.125rem] shadow-[0_4px_4px_#ffffff]">
-                <a href="/">Contact Me</a>
-            </button> */}
         </div>
         <img src={astro} alt="" className="w-2/3 md:w-1/2 place-self-end mt-0 sm:mt-[-30px] md:mt-0"/>
     </div>
