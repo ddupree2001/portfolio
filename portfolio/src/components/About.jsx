@@ -3,7 +3,7 @@ import me from '../assets/me.png'
 
 const About = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row justify-between items-center mt-[100px] gap-10 mx-[50px]" id="about">
+    <div className="flex flex-col-reverse md:flex-row justify-between items-center mt-[100px] gap-y-10 gap-x-16 mx-[50px]" id="about">
         <div className="w-1/2 md:w-1/3">
             <img src={me} alt="DeVon DuPree" className=""/>
         </div>
