@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import astro from '../assets/astro+stars.png'
-import {AiOutlineInstagram, AiOutlineGithub} from 'react-icons/ai'
+import {AiOutlineGithub} from 'react-icons/ai'
 import {FaLinkedinIn} from 'react-icons/fa'
+import {MdEmail} from 'react-icons/md'
 
 const Header = () => {
 
@@ -52,7 +53,7 @@ const Header = () => {
         <div className="w-full md:w-1/2">
             <div className="flex items-center gap-x-4">
                 <div className="bg-white w-[98px] h-[2px]"></div>
-                <a href="https://www.instagram.com/devon_dupree01/" target="_blank"><AiOutlineInstagram size={27} /></a>
+                <a href="mailto:ddupree@scu.edu" target="_blank"><MdEmail size={27} /></a>
                 <a href="https://www.linkedin.com/in/devon-dupree-973471168/" target="_blank"><FaLinkedinIn size={27} /></a>
                 <a href="https://github.com/ddupree2001" target="_blank"><AiOutlineGithub size={27} /></a>
             </div>

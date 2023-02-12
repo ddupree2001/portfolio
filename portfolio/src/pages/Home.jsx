@@ -1,15 +1,16 @@
 import React from 'react'
-import {Navbar, Header, About, Skills} from '../components'
+import {Navbar, Header, About, Skills, Footer} from '../components'
 import '../App.css'
 
 const Home = () => {
   return (
     <div className="background flex justify-center text-white">
-            <div className="max-w-[1400px] mx-[30px] sm:mx-[50px] py-[40px] w-full">
+            <div className="max-w-[1400px] mx-[30px] sm:mx-[50px] pt-[40px] w-full">
                 <Navbar />
                 <Header/>
                 <About />
                 <Skills />
+                <Footer />
             </div>
     </div>
   )
