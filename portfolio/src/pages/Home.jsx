@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar, Header, About, Skills, Projects, Footer} from '../components'
+import {Navbar, Header, About, Skills, Projects, ContactForm, Footer} from '../components'
 import '../App.css'
 
 const Home = () => {
@@ -11,6 +11,7 @@ const Home = () => {
                 <About />
                 <Skills />
                 <Projects />
+                <ContactForm />
                 <Footer />
             </div>
     </div>
