@@ -15,7 +15,7 @@ const Navbar = () => {
             <a href="#skills">
                 <p className="text-[1.25rem]">Skills</p>
             </a>
-            <a href="/">
+            <a href="#projects">
                 <p className="text-[1.25rem]">Projects</p>
             </a>
             <button className="bg-transparent border-2 px-[15px] py-[10px] rounded-[10px] text-[1.125rem] shadow-[0_4px_4px_#ffffff]" href="/">
