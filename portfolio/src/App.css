@@ -19,7 +19,7 @@
 
 .slide-track {
   display: flex;
-  width: calc(500px * 12);
+  width: calc(500px * 16);
   animation: scroll 20s linear infinite;
 }
 
@@ -33,7 +33,7 @@
   }
 
   100% {
-    transform: translateX(calc(-500px * 6));
+    transform: translateX(calc(-500px * 8));
   }
 }
 
@@ -83,7 +83,7 @@
   }
 
   .slide-track {
-    width: calc(200px * 12);
+    width: calc(200px * 16);
   }
 
   .slide {
@@ -102,7 +102,7 @@
     }
 
     100% {
-      transform: translateX(calc(-200px * 6));
+      transform: translateX(calc(-200px * 8));
     }
   }
 }
