@@ -5,6 +5,8 @@ import hoobank from '../assets/projects/hoobank.png'
 import shoplift from '../assets/projects/shoplift.png'
 import mginvestments from '../assets/projects/mginvestments.png'
 import inthemaking from '../assets/projects/inthemaking.png'
+import ecommerce from '../assets/projects/ecommerce.png'
+import dalle from '../assets/projects/dalle.png'
 
 const Carousel = () => {
 
@@ -55,6 +57,22 @@ const Carousel = () => {
             active: false,
             image: inthemaking,
             link: "https://inthemaking.vercel.app/" 
+        },
+        {
+            
+            id: 7,
+            pos: 7,
+            active: false,
+            image: ecommerce,
+            link: "https://ecommerce-two-nu-36.vercel.app/" 
+        },
+        {
+            
+            id: 8,
+            pos: 8,
+            active: false,
+            image: dalle,
+            link: "https://dalle-clone-livid.vercel.app/" 
         },
     ])
 
